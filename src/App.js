@@ -59,7 +59,7 @@ function App() {
       <h2 className="header">Image classifier</h2>
       <div className="inputContainer">
         <p>Please upload an image</p>
-        <input type="file" accept="image/*" capture='camera' className="uploadImage" onChange={uploadImage}/>
+        <input type="file" accept="image/*" className="uploadImage" onChange={uploadImage}/>
       </div>
 
       <div className="Wrapper">
