@@ -1,5 +1,4 @@
 import * as mobilenet from "@tensorflow-models/mobilenet";
-import * as tf from "@tensorflow/tfjs";
 import "@tensorflow/tfjs-backend-webgl";
 import { useState, useEffect, useRef } from "react";
 
